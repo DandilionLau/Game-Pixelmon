@@ -1,0 +1,19 @@
+﻿<Window x:Name="Capture1" x:Class="Pokemon_3080.Capture"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokemon_3080"
+        mc:Ignorable="d"
+        Title="Pixelmon 3080" Height="335.214" Width="325.881">
+    <Grid>
+        <Button x:Name="YesButton" Content="Yes" Height="26" Margin="230,23,10,0" VerticalAlignment="Top" Click="YesButton_Click"/>
+        <Button x:Name="NoButton" Content="No" Height="26" Margin="230,54,10,0" VerticalAlignment="Top" RenderTransformOrigin="0.525,-0.154" Click="NoButton_Click"/>
+        <TextBlock x:Name="AskingMessage" HorizontalAlignment="Left" Margin="64,200,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="204" Height="31"/>
+        <TextBox x:Name="typingbox" HorizontalAlignment="Left" Height="23" Margin="108,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" RenderTransformOrigin="0.5,0.5" TextChanged="typingbox_TextChanged"/>
+        <TextBlock x:Name="timecount" HorizontalAlignment="Left" Margin="199,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="47" RenderTransformOrigin="0.631,4.923"/>
+        <TextBlock x:Name="count" HorizontalAlignment="Left" Margin="220,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontWeight="Bold" Foreground="Red" FontSize="30" Width="77"/>
+        <TextBlock x:Name="pokemonname" HorizontalAlignment="Left" Margin="64,236,0,0" TextWrapping="Wrap" Text="" Width="204" Height="23" VerticalAlignment="Top"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="175"/>
+    </Grid>
+</Window>

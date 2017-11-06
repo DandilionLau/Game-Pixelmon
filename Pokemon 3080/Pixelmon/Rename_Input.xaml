@@ -1,0 +1,15 @@
+﻿<Window x:Name="Rename_Input1" x:Class="Pokemon_3080.Rename_Input"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokemon_3080"
+        mc:Ignorable="d"
+        Title="Pixelmon 3080" Height="213.429" Width="300">
+    <Grid>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Height="61" Margin="42,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="35" Margin="42,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"><Run Text="If you want to rename your pixelmon"/><Run Text=","/><Run Text=" "/><Run Text="type in "/><Run Text="the new name "/><Run Text="here:"/></TextBlock>
+        <Button x:Name="button" Content="Rename" HorizontalAlignment="Left" Height="22" Margin="101,141,0,0" VerticalAlignment="Top" Width="87" Click="button_Click"/>
+
+    </Grid>
+</Window>

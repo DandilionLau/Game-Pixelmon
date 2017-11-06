@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FFD289BB-336F-4B06-A9BB-77087A796528}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pokemon_3080</RootNamespace>
+    <AssemblyName>Pokemon 3080</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Capture.xaml.cs">
+      <DependentUpon>Capture.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChoosePokemon.xaml.cs">
+      <DependentUpon>ChoosePokemon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogue.xaml.cs">
+      <DependentUpon>Dialogue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GymBattle.xaml.cs">
+      <DependentUpon>GymBattle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rename_Input.xaml.cs">
+      <DependentUpon>Rename_Input.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Story.xaml.cs">
+      <DependentUpon>Story.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer.cs" />
+    <Page Include="Capture.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChoosePokemon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dialogue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GymBattle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Navigation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Navigation.xaml.cs">
+      <DependentUpon>Navigation.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rename_Input.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Story.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Bob_Grass.bmp" />
+    <Resource Include="Image\Bob_Grass_Texture.bmp" />
+    <Resource Include="Image\Bob_Ground_Texture.bmp" />
+    <Resource Include="Image\Bob_River.bmp" />
+    <Resource Include="Image\Grass.bmp" />
+    <Resource Include="Image\Grass_Texture.bmp" />
+    <Resource Include="Image\Ground_Texture.bmp" />
+    <Resource Include="Image\Gym.bmp" />
+    <Resource Include="Image\NPC0.bmp" />
+    <Resource Include="Image\NPC1.bmp" />
+    <Resource Include="Image\NPC2.bmp" />
+    <Resource Include="Image\NPC3.bmp" />
+    <Resource Include="Image\Out_Left.bmp" />
+    <Resource Include="Image\Out_Right.bmp" />
+    <Resource Include="Image\Pikachu.bmp" />
+    <Resource Include="Image\River_Texture.bmp" />
+    <Resource Include="Image\Store.bmp" />
+    <Resource Include="Image\Tree.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Start.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Charmander.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Bulbasaur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Squirtle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Pikachu_Story.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Frame0\0.bmp" />
+    <Resource Include="Frame0\1.bmp" />
+    <Resource Include="Frame0\10.bmp" />
+    <Resource Include="Frame0\11.bmp" />
+    <Resource Include="Frame0\12.bmp" />
+    <Resource Include="Frame0\13.bmp" />
+    <Resource Include="Frame0\14.bmp" />
+    <Resource Include="Frame0\15.bmp" />
+    <Resource Include="Frame0\16.bmp" />
+    <Resource Include="Frame0\2.bmp" />
+    <Resource Include="Frame0\3.bmp" />
+    <Resource Include="Frame0\4.bmp" />
+    <Resource Include="Frame0\5.bmp" />
+    <Resource Include="Frame0\6.bmp" />
+    <Resource Include="Frame0\7.bmp" />
+    <Resource Include="Frame0\8.bmp" />
+    <Resource Include="Frame0\9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Frame1\0.bmp" />
+    <Resource Include="Frame1\1.bmp" />
+    <Resource Include="Frame1\10.bmp" />
+    <Resource Include="Frame1\11.bmp" />
+    <Resource Include="Frame1\12.bmp" />
+    <Resource Include="Frame1\13.bmp" />
+    <Resource Include="Frame1\14.bmp" />
+    <Resource Include="Frame1\2.bmp" />
+    <Resource Include="Frame1\3.bmp" />
+    <Resource Include="Frame1\4.bmp" />
+    <Resource Include="Frame1\5.bmp" />
+    <Resource Include="Frame1\6.bmp" />
+    <Resource Include="Frame1\7.bmp" />
+    <Resource Include="Frame1\8.bmp" />
+    <Resource Include="Frame1\9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Frame2\0.bmp" />
+    <Resource Include="Frame2\1.bmp" />
+    <Resource Include="Frame2\10.bmp" />
+    <Resource Include="Frame2\11.bmp" />
+    <Resource Include="Frame2\12.bmp" />
+    <Resource Include="Frame2\13.bmp" />
+    <Resource Include="Frame2\14.bmp" />
+    <Resource Include="Frame2\15.bmp" />
+    <Resource Include="Frame2\16.bmp" />
+    <Resource Include="Frame2\17.bmp" />
+    <Resource Include="Frame2\18.bmp" />
+    <Resource Include="Frame2\19.bmp" />
+    <Resource Include="Frame2\2.bmp" />
+    <Resource Include="Frame2\20.bmp" />
+    <Resource Include="Frame2\21.bmp" />
+    <Resource Include="Frame2\22.bmp" />
+    <Resource Include="Frame2\23.bmp" />
+    <Resource Include="Frame2\24.bmp" />
+    <Resource Include="Frame2\25.bmp" />
+    <Resource Include="Frame2\26.bmp" />
+    <Resource Include="Frame2\27.bmp" />
+    <Resource Include="Frame2\28.bmp" />
+    <Resource Include="Frame2\29.bmp" />
+    <Resource Include="Frame2\3.bmp" />
+    <Resource Include="Frame2\30.bmp" />
+    <Resource Include="Frame2\31.bmp" />
+    <Resource Include="Frame2\32.bmp" />
+    <Resource Include="Frame2\33.bmp" />
+    <Resource Include="Frame2\34.bmp" />
+    <Resource Include="Frame2\35.bmp" />
+    <Resource Include="Frame2\36.bmp" />
+    <Resource Include="Frame2\37.bmp" />
+    <Resource Include="Frame2\38.bmp" />
+    <Resource Include="Frame2\39.bmp" />
+    <Resource Include="Frame2\4.bmp" />
+    <Resource Include="Frame2\40.bmp" />
+    <Resource Include="Frame2\41.bmp" />
+    <Resource Include="Frame2\42.bmp" />
+    <Resource Include="Frame2\43.bmp" />
+    <Resource Include="Frame2\44.bmp" />
+    <Resource Include="Frame2\45.bmp" />
+    <Resource Include="Frame2\46.bmp" />
+    <Resource Include="Frame2\47.bmp" />
+    <Resource Include="Frame2\48.bmp" />
+    <Resource Include="Frame2\49.bmp" />
+    <Resource Include="Frame2\5.bmp" />
+    <Resource Include="Frame2\50.bmp" />
+    <Resource Include="Frame2\51.bmp" />
+    <Resource Include="Frame2\52.bmp" />
+    <Resource Include="Frame2\53.bmp" />
+    <Resource Include="Frame2\54.bmp" />
+    <Resource Include="Frame2\55.bmp" />
+    <Resource Include="Frame2\56.bmp" />
+    <Resource Include="Frame2\57.bmp" />
+    <Resource Include="Frame2\58.bmp" />
+    <Resource Include="Frame2\59.bmp" />
+    <Resource Include="Frame2\6.bmp" />
+    <Resource Include="Frame2\60.bmp" />
+    <Resource Include="Frame2\61.bmp" />
+    <Resource Include="Frame2\62.bmp" />
+    <Resource Include="Frame2\7.bmp" />
+    <Resource Include="Frame2\8.bmp" />
+    <Resource Include="Frame2\9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Map_Prision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Bernard.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Clementine.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Nick.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Tracer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Pikachu_Figure.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PokemonImage\0.bmp" />
+    <Resource Include="PokemonImage\1.bmp" />
+    <Resource Include="PokemonImage\10.bmp" />
+    <Resource Include="PokemonImage\11.bmp" />
+    <Resource Include="PokemonImage\12.bmp" />
+    <Resource Include="PokemonImage\13.bmp" />
+    <Resource Include="PokemonImage\2.bmp" />
+    <Resource Include="PokemonImage\3.bmp" />
+    <Resource Include="PokemonImage\4.bmp" />
+    <Resource Include="PokemonImage\5.bmp" />
+    <Resource Include="PokemonImage\6.bmp" />
+    <Resource Include="PokemonImage\7.bmp" />
+    <Resource Include="PokemonImage\8.bmp" />
+    <Resource Include="PokemonImage\9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\fightbg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

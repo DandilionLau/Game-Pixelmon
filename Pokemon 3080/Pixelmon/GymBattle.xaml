@@ -1,0 +1,35 @@
+﻿<Window x:Name="GymBattle1" x:Class="Pokemon_3080.GymBattle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokemon_3080"
+        mc:Ignorable="d"
+        Title="Pixelmon 3080" Height="350" Width="525">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Pokemon 3080;component/Image/fightbg.jpg">
+            </ImageBrush>
+        </Grid.Background>
+        <TextBlock x:Name="format1" HorizontalAlignment="Left" Margin="36,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="178" FontSize="15" FontWeight="ExtraBold" Foreground="BlanchedAlmond"><Run Text="Your "/><Run Text="F"/><Run Text="ighting P"/><Run Text="ixel"/><Run Text="mon is:"/></TextBlock>
+        <TextBlock x:Name="chosenpokemon" HorizontalAlignment="Left" Margin="99,59,0,0" TextWrapping="Wrap" Text="Psyduck" VerticalAlignment="Top" FontSize="20" FontWeight="ExtraBold" Foreground="BlanchedAlmond"/>
+        <TextBlock x:Name="Lelvelformat1" HorizontalAlignment="Left" Margin="36,103,0,0" TextWrapping="Wrap" Text="Level" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="BlanchedAlmond" FontSize="15"/>
+        <TextBlock x:Name="level1" HorizontalAlignment="Left" Margin="81,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="BlanchedAlmond" FontSize="25"/>
+        <TextBlock x:Name="HPformat1" HorizontalAlignment="Left" Margin="36,143,0,0" TextWrapping="Wrap" Text="HP:" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="BlanchedAlmond" FontSize="15"/>
+        <TextBlock x:Name="HP1" HorizontalAlignment="Left" Margin="69,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="BlanchedAlmond" FontSize="15"/>
+        <TextBlock x:Name="Skillformat1" HorizontalAlignment="Left" Margin="36,175,0,0" TextWrapping="Wrap" Text="Your pokemon's skills:" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="BlanchedAlmond" FontSize="15"/>
+        <Button x:Name="run" Content="Run away" HorizontalAlignment="Left" Margin="36,289,0,0" VerticalAlignment="Top" Width="75" Click="runaway_Click"/>
+        <Button x:Name="skill2" Content="Skill2" HorizontalAlignment="Left" Margin="36,237,0,0" VerticalAlignment="Top" Width="75" Click="skill2_Click"/>
+        <Button x:Name="skill1" Content="Skill1" HorizontalAlignment="Left" Margin="139,207,0,0" VerticalAlignment="Top" Width="75" Click="skill1_Click"/>
+        <Button x:Name="skill3" Content="Skill3" HorizontalAlignment="Left" Margin="139,237,0,0" VerticalAlignment="Top" Width="75" Click="skill3_Click"/>
+        <Button x:Name="normalattack" Content="Attack" HorizontalAlignment="Left" Margin="36,207,0,0" VerticalAlignment="Top" Width="75" Click="normalattack_Click" RenderTransformOrigin="0.455,-0.047"/>
+        <TextBlock x:Name="format2" HorizontalAlignment="Left" Margin="306,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="166" FontSize="15" FontWeight="ExtraBold" Foreground="Snow"><Run Text="Your "/><Run Text="E"/><Run Text="nemy Pixelmon"/></TextBlock>
+        <TextBlock x:Name="enemypokemon" HorizontalAlignment="Left" Margin="339,59,0,0" TextWrapping="Wrap" Text="Squirtle" VerticalAlignment="Top" FontSize="20" FontWeight="ExtraBold" Foreground="Snow"/>
+        <TextBlock x:Name="Levelformat2" HorizontalAlignment="Left" Margin="291,103,0,0" TextWrapping="Wrap" Text="Level" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="Snow" FontSize="15"/>
+        <TextBlock x:Name="level2" HorizontalAlignment="Left" Margin="336,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="Snow" FontSize="25"/>
+        <TextBlock x:Name="HPformat2" HorizontalAlignment="Left" Margin="291,143,0,0" TextWrapping="Wrap" Text="HP:" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="Snow" FontSize="15"/>
+        <TextBlock x:Name="HP2" HorizontalAlignment="Left" Margin="324,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="Snow" FontSize="15"/>
+        <TextBlock x:Name="fightingrecord" HorizontalAlignment="Left" Height="109" Margin="291,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="193" Background="GhostWhite"/>
+        <TextBlock x:Name="HPformat2_Copy" HorizontalAlignment="Left" Margin="291,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="Snow" FontSize="15"><Run Text="Battle Info"/><Run Text="mation"/><Run Text=":"/></TextBlock>
+    </Grid>
+</Window>

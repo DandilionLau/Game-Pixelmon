@@ -1,0 +1,56 @@
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\bin\Debug\Pokemon 3080.exe.config
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\bin\Debug\Pokemon 3080.exe
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\bin\Debug\Pokemon 3080.pdb
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.csprojResolveAssemblyReference.cache
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Capture.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\ChoosePokemon.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Dialogue.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\GymBattle.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Navigation.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\MainWindow.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Rename_Input.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Story.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\App.g.cs
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080_MarkupCompile.cache
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080_MarkupCompile.lref
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Capture.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\ChoosePokemon.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Dialogue.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\GymBattle.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Navigation.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\MainWindow.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Rename_Input.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Story.baml
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.g.resources
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon_3080.Properties.Resources.resources
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.csproj.GenerateResource.Cache
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.exe
+C:\Users\incre\documents\visual studio 2015\Projects\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.pdb
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\bin\Debug\Pokemon 3080.exe.config
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.exe
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.pdb
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\bin\Debug\Pokemon 3080.exe
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\bin\Debug\Pokemon 3080.pdb
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.csprojResolveAssemblyReference.cache
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Capture.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\ChoosePokemon.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Dialogue.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\GymBattle.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Navigation.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\MainWindow.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Rename_Input.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Story.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\App.g.cs
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080_MarkupCompile.cache
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080_MarkupCompile.lref
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Capture.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\ChoosePokemon.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Dialogue.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\GymBattle.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Navigation.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\MainWindow.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Rename_Input.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Story.baml
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.g.resources
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon_3080.Properties.Resources.resources
+C:\Users\incre\Desktop\Pokemon 3080\Pokemon 3080\obj\Debug\Pokemon 3080.csproj.GenerateResource.Cache
