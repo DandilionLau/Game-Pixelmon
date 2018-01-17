@@ -9,8 +9,8 @@
 The Pokemon Game Series originated from 1990s, with its prototype being Pokemon Red, which is a simple game running on GameBoy. Recently, a popular online game named Pokemon Go has redrawn considerable public attention, gained reputation form both game developers and game players.
 
 <div style="align: center">
-	<img src="./pics/1.png" width = "300" align=center /> 
-	<center>Pixelized UI of Pixelmon</center>  
+	<img src="./pics/1.png" width = "300" />  
+	Pixelized UI of Pixelmon 
 </div> 
 
 Inspired by both the modern version **Pokemon Go** and the reminiscent version Pokemon Red, we came up with the idea called Pixelmon. Though running on modern PC, Pixelmon uses a pixelized UI, to create a similar experience as playing Pokemon Red in our childhood. Also, Pixelmon adopts many modern features of Pokemon Go, with the game logic updated to the newest trend.  
