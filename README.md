@@ -88,23 +88,23 @@ The specification of the Real Game version Pixelmon will be covered in part 2 an
 
 ##### 2.5 Story (Bonus Feature)  
 
-<img src="./pics/8.png"  align="center"/>   
+<img src="./pics/8.png" width = "600" align="center"/>   
 
-<img src="./pics/9.png" align="center" />  
+<img src="./pics/9.png" width = "600" align="center" />  
 
 **Model**: The main model of storyline is several tasks. Firstly, the player’s final goal is to save Pikachu form the Bad Guy (as figure followed). But the island where the Bad Guy traps Pikachu is surrounded by some dark magic, where our character cannot enter (in our design, cannot enter means the final battle between the Bad Guy and our character won’t triggered unless all the previous Tasks has been accomplished). He must find the prophet **Bernard** to teach him how to break the dark magic.  
 
-<img src="./pics/10.png" width = "300" align="center" />  
+<img src="./pics/10.png" width = "500" align="center" />  
 
 However, the way is not always smooth, Bernard is not a guy which is easy to see. Our player
 must finish the **Stranger’s Challenge** , which is one old custom in the village, after defending
 Bernard’s son Nick and the Guard, he can see Bernard.  
 
-<img src="./pics/11.png" align="center" />  
+<img src="./pics/11.png" width = "600" align="center" />  
 
 Bernard breaks the dark magic surrounding the island, now is the final battle.  
 
-<img src="./pics/12.png" align="center" />  
+<img src="./pics/12.png" width = "600" align="center" />  
 
 The **View** and **Presenter** is quite simple in StoryLine, so we will omit the detail.
 
@@ -114,7 +114,7 @@ The **View** and **Presenter** is quite simple in StoryLine, so we will omit the
 
 We have several data fields for realization like **BitmapList** to store the bitmaps, the **ImageList** to store the image, the **PokemonNameList** to store the name of pixelmons. When deal with the map, we keep records of the X and Y coordinates where our player is, we use NumberMatirxList to store the data of map, and use **ImageMatrixList** to store the images in map. In our current version, the total number of map is three. We use an integer **CurrentMap** to tell which map our player is located.
 
-<img src="./pics/13.png" align="center" />  
+<img src="./pics/13.png" width = "600" align="center" />  
 
 <center>Multiple Maps with Vairous Terrians</center>
 
@@ -140,7 +140,7 @@ A **timer** is used to count the round turning. Four **skill_Click** handlers co
 
 In our initial built of **Navigation**, each time the player moves, we use a new Image to cover the old one, in that way to simulate to movement of our character in memory. However, covering the old one means add a new **Children** to **Canvas**, without deleting the old one. If we move our player rapidly on the map, the usage of Memory will go up.  
 
-<img src="./pics/14.png" width = "800" align="center" />  
+<img src="./pics/14.png" width = "600" align="center" />  
 
 <center>The Memory Goes Up When Rapid Move</center>  
 
@@ -150,7 +150,7 @@ To solve the problem, we create **ImageMatirxList** to store all the image shown
 
 In the **StoryLine**, we first want to adopt some encapsulated method for our animation. However, we find that the **Image** in the **ToolBox** only support GIF with **absolute address** but not **relative address**. In that case, we separate the GIF into frames, then display each frame respectively.
 
-<img src="./pics/15.png" width = "800" align="center" />  
+<img src="./pics/15.png" width = "600" align="center" />  
 
 <center>Individual Frames of GIF</center>  
 
